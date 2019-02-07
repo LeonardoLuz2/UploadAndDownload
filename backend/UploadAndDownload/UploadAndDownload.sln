@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upload.Api", "src\Upload.Api\Upload.Api.csproj", "{8736AE5B-E050-4140-8077-560CECF7880A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Download.Api", "src\Download.Api\Download.Api.csproj", "{DE6E1E7A-6EF6-43EC-AB23-47F41467F5A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8736AE5B-E050-4140-8077-560CECF7880A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8736AE5B-E050-4140-8077-560CECF7880A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8736AE5B-E050-4140-8077-560CECF7880A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8736AE5B-E050-4140-8077-560CECF7880A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6E1E7A-6EF6-43EC-AB23-47F41467F5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6E1E7A-6EF6-43EC-AB23-47F41467F5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6E1E7A-6EF6-43EC-AB23-47F41467F5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6E1E7A-6EF6-43EC-AB23-47F41467F5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7BB6DFB-CC35-4623-A64B-26C83C7C5EFC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<div class="card mt-3">
+  <div class="card-header">
+    <h4>Upload file</h4>
+  </div>
+  <div class="card-body">
+    <div class="form-group">
+      <label>Choose a file</label>
+      <input #file type="file" class="form-control-file" (change)="upload(file.files[0])" />
+    </div>
+    <span class="text-danger font-weight-bold" *ngIf="invalidFile">
+      Invalid file.
+    </span>
+
+    <span class="text-success font-weight-bold" *ngIf="(progress > 0 && progress < 100) && !invalidFile">
+      {{progress}}%
+    </span>
+
+    <span class="text-success font-weight-bold" *ngIf="message && !invalidFile">
+      {{message}}
+    </span>
+  </div>
+</div>

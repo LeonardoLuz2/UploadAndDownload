@@ -1,0 +1,32 @@
+<div class="card mt-3">
+  <div class="card-header">
+    <div class="float-left">
+      <h4>Download file</h4>
+    </div>
+    <div class="float-right">
+      <button class="btn btn-primary" (click)="getFiles()">Refresh</button>
+    </div>
+  </div>
+  <div class="card-body">
+    <table class="table table-hover" *ngIf="files$ | async as files; else loading">
+      <thead>
+        <th>Filename</th>
+        <th>Extension</th>
+        <th></th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let file of files">
+          <td class="align-middle">{{file.filename}}</td>
+          <td class="align-middle">{{file.extension}}</td>
+          <td class="d-flex justify-content-end">
+            <button (click)="downloadFile(file)" class="btn btn-dark">Download</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ng-template #loading>
+      <span>Loading...</span>
+    </ng-template>
+  </div>
+</div>
