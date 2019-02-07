@@ -1,5 +1,5 @@
 # UploadAndDownload
-Upload and download API with DotNet Core 2.2 and Angular.
+Upload and download API with ASP.NET Core and Angular.
 
 ### Upload.API
 API for uploading files to the server.
