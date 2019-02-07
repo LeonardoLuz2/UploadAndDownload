@@ -9,3 +9,6 @@ API for downloading files that were sent to the server.
 
 ### Angular App
 Page to upload and download files.
+
+### Configuration
+Change directory in `appsettings.json` of APIs.
